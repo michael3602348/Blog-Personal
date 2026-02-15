@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- ?Meta datos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ?Titulo de la pagina -->
+    <title>Blog Personal</title>
+    <!-- ?Links: Recuros externos -->
+    <!-- *Archivo de CSS -->
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- *Google font: roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- ?Header -->
+    <header id="header">
+        <!-- *Logo -->
+        <div class="div-logo">
+            <a href="index.html" class="a-logo">
+                <h1 class="logo">Blog Personal</h1>
+            </a>
+        </div>
+        <!-- *Menu para escritorio -->
+        <nav id="nav-escritorio">
+            <ul id="menu-escritorio">
+                <li class="li-escritorio"><a href="index.html" class="a-escritorio">Inicio</a></li>
+                <li class="li-escritorio"><a href="#articulos" class="a-escritorio">Articulos</a></li>
+                <li class="li-escritorio"><a href="#footer" class="a-escritorio">Final</a></li>
+            </ul>
+        </nav>
+        <!-- *Seccion del menu para celular -->
+        <!-- *Abrir menu -->
+        <div class="div-abrir" id="abrir">
+            <img src="icons/abrir-menu.png" alt="Abrir menu" class="img-abrir">
+        </div>
+        <!-- *Menu para celular -->
+        <nav id="nav-celular">
+            <!-- *cerrar menu -->
+            <div class="div-cerrar" id="cerrar">
+                <img src="icons/cerrar-menu.png" alt="cerrar menu" class="img-cerrar">
+            </div>
+            <ul id="menu-celular">
+                <li class="li-celular"><a href="index.html" class="a-escritorio" id="btn-inicio">Inicio</a></li>
+                <li class="li-celular"><a href="#articulos" class="a-escritorio" id="btn-articulos">Articulos</a></li>
+                <li class="li-celular"><a href="#footer" class="a-escritorio" id="btn-final">Final</a></li>
+                <li class="li-celular"><a href="mailto:jeremiasduarterosa2@outlook.com" class="a-escritorio"
+                        id="btn-contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- ?Contenido principal de la pagina -->
+    <main id="articulos">
+        <!-- *Linea divisoria -->
+        <div class="div-hr">
+            <h2 class="h2-hr">Articulos</h2>
+            <hr class="hr">
+        </div>
+        <!-- *Seccion de articulos -->
+        <section id="seccion-articulos">
+            <!-- *Articulos -->
+            <article class="articulos-seccion">
+                <img src="images/puente.webp" alt="Imagen de puente" class="img-articulos">
+                <h3 class="h3-articulos">Titulo</h3>
+                <p class="p-articulos">Descripcion</p>
+            </article>
+            <article class="articulos-seccion">
+                <img src="images/puente.webp" alt="Imagen de puente" class="img-articulos">
+                <h3 class="h3-articulos">Titulo</h3>
+                <p class="p-articulos">Descripcion</p>
+            </article>
+            <article class="articulos-seccion">
+                <img src="images/puente.webp" alt="Imagen de puente" class="img-articulos">
+                <h3 class="h3-articulos">Titulo</h3>
+                <p class="p-articulos">Descripcion</p>
+            </article>
+            <article class="articulos-seccion">
+                <img src="images/puente.webp" alt="Imagen de puente" class="img-articulos">
+                <h3 class="h3-articulos">Titulo</h3>
+                <p class="p-articulos">Descripcion</p>
+            </article>
+            <article class="articulos-seccion">
+                <img src="images/puente.webp" alt="Imagen de puente" class="img-articulos">
+                <h3 class="h3-articulos">Titulo</h3>
+                <p class="p-articulos">Descripcion</p>
+            </article>
+            <article class="articulos-seccion">
+                <img src="images/puente.webp" alt="Imagen de puente" class="img-articulos">
+                <h3 class="h3-articulos">Titulo</h3>
+                <p class="p-articulos">Descripcion</p>
+            </article>
+        </section>
+    </main>
+    <!-- ?Footer -->
+    <footer id="footer">
+        <!-- *Copyright -->
+        <div class="div-footer">
+            <small class="copy">&copy; Copyright 2026 Blog Personal</small>
+        </div>
+        <!-- *Links del footer -->
+        <div class="div-footer" id="a-footer">
+            <a href="#articulos" class="a-footer">Inicio</a>
+            <a href="mailto:jeremiasduarterosa2@outlook.com" class="a-footer">Contacto</a>
+        </div>
+    </footer>
+    <!-- ?Archivo de javascript -->
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
